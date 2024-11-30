@@ -9,8 +9,8 @@
   <nav>
     <ul class="menu">
         <li><a href="histoireJJK.md">Histoire</a></li>
-        <li><a href="personnageJJK.html">Personnage</a></li>
-        <li><a href="tomeJJK.html">Tome</a></li>
+        <li><a href="personnageJJK.md">Personnage</a></li>
+        <li><a href="tomeJJK.md">Tome</a></li>
     </ul>
   </nav>
 
