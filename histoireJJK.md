@@ -12,8 +12,8 @@
 <nav>
     <ul class="menu">
         <li><a href="README.md">Jujutsu kaisen</a></li>
-        <li><a href="personnageJJK.html">Personnage</a></li>
-        <li><a href="tomeJJK.html">Tome</a></li>
+        <li><a href="personnageJJK.md">Personnage</a></li>
+        <li><a href="tomeJJK.md">Tome</a></li>
     </ul>
 </nav>
 <p>Nous suivons l'histoire d'un jeune lyc&eacuteen nomm&eacute Itadori Yuji, qui pour sauver un camarade de l'attaque 
