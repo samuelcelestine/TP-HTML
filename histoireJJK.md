@@ -10,7 +10,7 @@
 <h1>Histoire</h1>
 <nav>
     <ul class="menu">
-        <li><a href="JujutsuKaisen.html">Jujutsu kaisen</a></li>
+        <li><a href="README.md">Jujutsu kaisen</a></li>
         <li><a href="personnageJJK.html">Personnage</a></li>
         <li><a href="tomeJJK.html">Tome</a></li>
     </ul>
