@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="JJK.css">
 <head>
 <meta charset="utf-8" />
-<title>Jujutsu kaisen</title>
+<titre>Page D'accueil Jujutsu Kaisen</titre>
 </head>
 <body>
 
