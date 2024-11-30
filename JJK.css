@@ -1,0 +1,49 @@
+body {
+  background-color: whitesmoke;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-family: serif;
+  font-size: 20px;
+}
+
+.menu {
+    display: flex;
+    padding: 0;
+    background-color: #ccc;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu a {
+    display: block;
+    min-width: 120px;
+}
+
+.menu a {
+    display: block;
+    min-width: 120px;
+
+    margin: 1px;
+    padding: 0.4rem;
+    text-align: center;
+    background-color: rebeccapurple;
+    color: #fff;
+    text-decoration: wavy;
+}
+
+header {
+    background-image: url(banniere-categorie-sukuna.jpg);
+    width: 1250px;
+    height: 421px;
+    border: 1px solid #ccc;
+    margin: 1em;
+    position: relative;
+}
