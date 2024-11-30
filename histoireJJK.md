@@ -3,6 +3,7 @@
     <link rel="icon" type="image/png" href="nah,idwin.png">
     <link rel="stylesheet" href="JJK.css">
 <head>
+<meta charset="utf-8" />
 <title>Jujutsu kaisen</title>
 </head>
 <body>
