@@ -3,8 +3,7 @@
     <link rel="icon" type="image/png" href="nah,idwin.png">
     <link rel="stylesheet" href="JJK.css">
 <head>
-<title>Jujutsu kaisen</title>
-</head>
+<titre>Page Des Personnage de Jujutsu Kaisen</titre></head>
 <body>
 
 <h1>Personnage</h1>
