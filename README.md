@@ -8,7 +8,7 @@
   <h1>Jujutsu kaisen</h1>
   <nav>
     <ul class="menu">
-        <li><a href="histoireJJK.html">Histoire</a></li>
+        <li><a href="histoireJJK.md">Histoire</a></li>
         <li><a href="personnageJJK.html">Personnage</a></li>
         <li><a href="tomeJJK.html">Tome</a></li>
     </ul>
