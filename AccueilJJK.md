@@ -5,7 +5,7 @@
     <!--Feuille de style w3-school-->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!--Feuille de style css du site Internet-->
-    <link rel="stylesheet" href="jjk.css">
+    <link rel="stylesheet" href="CJJK.css">
     <!--Favicon du site Internet-->
     <link rel="icon" type="image/vnd.png" href="https://static.tvtropes.org/pmwiki/pub/images/jujutsu_logo.png">
     
