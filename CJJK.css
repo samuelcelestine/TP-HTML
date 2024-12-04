@@ -1,0 +1,143 @@
+body {
+    color:black;
+    background-color:palevioletred;
+    background-image:url(https://wallpaper.forfun.com/fetch/a1/a10a765e4925f5bb99925dd494fb1c5b.jpeg);
+    margin:0;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+}
+
+/*Pour pouvoir monter tout en haut de la page web grâce à la flèche rose en bas à droite de l'écran.*/
+.ancrage {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    filter: opacity(25%);
+    z-index: 1000;
+    transition: transform 0.3s ease, opacity 0.3s ease; /*Provoque l'agrandisement et l'opacité en 0.3s*/
+}
+
+.ancrage:hover {
+    transform: scale(1.2); /* Agrandissement un peu la flèche quand on clique dessus. hover permet de faire ceci.*/
+    filter: opacity(25%);
+}
+
+/*Responsive Tablette et @media pour un appareil*/
+@media (max-width: 768px) {
+    .ancrage {
+        width: 40px;
+        height: 40px;
+        bottom: 15px;
+        right: 15px;
+    }
+}
+
+/*Responsive Téléphone @media pour un appareil*/
+@media (max-width: 480px) {
+    .ancrage {
+        width: 30px;
+        height: 30px;
+        bottom: 10px;
+        right: 10px;
+    }
+}
+
+.barre {
+    background-color: #ffe4e1;
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-bottom: 5px solid #ffe4e1; /*Solid sert a remplir toute le border (bordure)*/
+}
+
+.barre:hover {
+    border-color: #ffe4e1;
+}
+
+.barrep {
+    background-color: #ffe4e1;
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.barrep:hover {
+    border-color: deeppink; /* couleur de bordure au survol de la souris */
+}
+
+/*Pour que cette variable met la couleur violet foncé et le texte en gras*/
+.titreg {
+    font-weight: bold;
+    color: #800080;
+}
+
+.hautpage {
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration-line: underline; /*souligner le texte*/
+    text-align: left;
+}
+
+/*Hover sert pour si on met la souris sur un élément il y a une action qui se passe.*/
+.hautpage:hover {
+    background-color: deeppink;
+}
+
+/*Il y a une barre en bas de la page qui ne bougera pas et qui prend toute la largeur.*/
+.baspage {
+    bottom: 0px;
+    width: 100%;
+    font-weight: bold;
+    background-color: #ffe4e1;
+}
+
+/*Pour centrer la vidéo correctement*/
+.alignvideo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/*Pour ajuster la taille de la vidéo correctement.*/
+/*.alignvideo video {
+    width: 70%;    
+    max-width: 1200px;
+    height: auto;
+}*/
+.alignvideo iframe {
+    width: 75vw;
+    height: 75vh;
+}
+
+.coucou1 { 
+    color:black;
+    font-style: unset;
+    font-weight: bold;
+}
+
+/*Mettre une police personnalisé et une couleur personnalisé.*/
+.coucou { 
+    color:black;
+    font-style: unset;
+    font-weight: bold;
+    background-color: #ffe4e1;
+}
+
+.theme {
+    position: absolute;
+    top: 7px;       
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;  /*Pour bien ajuster l'image sur la barre de navigation*/
+    cursor: pointer;
+    z-index: 1000;
+    transition: transform 0.3s ease, opacity 0.3s ease; /*Provoque l'agrandisement et l'opacité en 0.3s*/
+}
+
+.theme:hover {
+    transform: scale(1.2); /* Agrandissement un peu la flèche quand on clique dessus de 1.2cm.*/
+}
