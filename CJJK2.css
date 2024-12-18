@@ -167,6 +167,8 @@ body::-webkit-scrollbar-thumb:hover {
     position: sticky;
     top: 0px;
     align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
   nav ul {
@@ -229,3 +231,8 @@ body::-webkit-scrollbar-thumb:hover {
     border-bottom: none;
     background-color: darkcyan;
   }
+
+  .center {
+    align-items: center;
+    text-align: center;
+}
