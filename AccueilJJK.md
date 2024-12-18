@@ -2,8 +2,6 @@
 <!--Langue du site internet défini sur le français-->
 <html lang="fr">
 <head>
-    <!--Feuille de style w3-school-->
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!--Feuille de style css du site Internet-->
     <link rel="stylesheet" href="jjk.css">
     <!--Favicon du site Internet-->
@@ -18,7 +16,7 @@
 <meta name="keywords" content="JJK, Jujutsu Kaisen, Celestine Samuel, Diaz Gwenn, Gojo, Sukuna, Projet informatique IUT Aix marseille, Gul Furkan">
 <!--Si le site est partagé sur les réseaux sociaux, l'image sera alors afficher.-->
 <meta property="og:image" content="https://vainkeurz.com/wp-content/uploads/2022/04/img-11042022-190104-1200-x-630-pixel.jpg">
-<!--Permet de mettre des mots clés pour retrouver le site sur internet plus facilement-->
+
 <title>Accueil Jujutsu Kaisen</title>
 <link id="jjk-style" rel="stylesheet" href="jjk.css">
 </head>
@@ -28,28 +26,28 @@
     <div class=" coucou barre barrep">
         <nav>
             <ul>
-                <li><a href="Accueil_JJK.html" class="hautpage w3-center">Accueil</a>
-                <li><a href="#" class="hautpage w3-center">Synopsis</a>
-                    <ul class="sous">
+                <li><a href="Accueil_JJK.html" class="hautpage center">Accueil</a>
+                <li><a href="#" class="hautpage center">Synopsis</a>
+                    <ul class="sous center">
                         <li><a href="#">Histoire</a></li>
                         <li><a href="#">Energie occulte</a></li>
                         <li><a href="#">Serment Inné</a></li>
                     </ul>
                 </li>
-                <li><a href="#" class="hautpage w3-center">Animation</a>
+                <li><a href="#" class="hautpage center">Animation</a>
                     <ul class="sous">
                         <li><a href="#">Saison 1</a></li>
                         <li><a href="#">Saison 2</a></li>
                         <li><a href="#">Film</a></li>
                     </ul>
                 </li>
-                <li><a href="#" class="hautpage w3-center">Manga</a>
+                <li><a href="#" class="hautpage center">Manga</a>
                     <ul class="sous">
                         <li><a href="#">Scan</a></li>
                         <li><a href="#">Film manga</a></li>
                     </ul>
                 </li>
-                <li><a href="#" class="hautpage w3-center">Personnage</a>
+                <li><a href="#" class="hautpage center">Personnage</a>
                     <ul class="sous">
                         <li><a href="#">Protagoniste Principaux</a></li>
                         <li><a href="#">Antagoniste Principaux</a></li>
@@ -69,26 +67,35 @@
 
 
 <!-- Page de présentation à partir d'ici -->
-<h1 class="w3-center mega-giant-text w3-hide-small w3-hide-medium w3-cursive titreg">Jujutsu Kaisen</h1>
-<!-- Responsive Telephone tablette --> 
-<h1 class="w3-center mega-giant-text w3-hide-medium w3-hide-large w3-cursive titreg">Jujutsu Kaisen</h1>
-<h1 class="w3-center mega-giant-text w3-hide-small w3-cursive w3-hide-large titreg">Jujutsu Kaisen</h1>
+<h1 class="content titreg">Jujutsu Kaisen</h1>
 
-<h2>Manga ══════════════════</h2>
-<p>Jujutsu kaisen est un manga écrit par Gege Akutami.</p>
-<div class="w3-right"><img src="https://i.pinimg.com/originals/dc/55/a3/dc55a39b56c1716021b664e1daa787c7.gif" alt="Gif JJK" width="500"></div>
-<blockquote>Date de sorti: mars 2018</blockquote>
-<blockquote>Date de fin: septembre 2024</blockquote>
+<div class="content center">
+<img src="https://media.ultimate-manga.com/jujutsu-kaisen/banniere-categorie-sukuna.jpg" alt="Bannière Sukuna" width="700px">
+</div>
 
-<h2>Anime ══════════════════</h2>
-<p>Ce manga a été adapté en animation par le studio de production MAPPA.</p>
-<blockquote>Date de sorti: octobre 2020</blockquote>
-<blockquote>Date de fin: ? (l'adaptation en anime n'est pas terminé)</blockquote>
-<h2>Film ══════════════════</h2>
-<p>Ce Film a été adapté par le studio MAPPA.</p>
+<!--Row permet de couper en plusieurs partie les éléments de la page pour les mettres ensemble sur la même ligne.-->
+<div class="row">
+    <div class="left">
+      <h2>Manga <a class="pink">══════════════════</a></h2>
+      <p>Jujutsu kaisen est un manga écrit par Gege Akutami.</p>
+      <blockquote>Date de sorti: mars 2018</blockquote>
+      <blockquote>Date de fin: septembre 2024</blockquote>
+      <br>
+      <h2>Anime <a class="pink">══════════════════</a></h2>
+      <p>Ce manga a été adapté en animation par le studio de production MAPPA.</p>
+      <blockquote>Date de sorti: octobre 2020</blockquote>
+      <blockquote>Date de fin: ? (l'adaptation en anime n'est pas terminé)</blockquote>
+      <br>
+      <h2>Films <a class="pink">═══════════════════</a></h2>
+      <p>Ce Film a été adapté par le studio MAPPA.</p>
+      <blockquote>Date de sorti et de fin (film): 24 décembre 2021</blockquote>
+      <blockquote>Date de sorti et de fin (manga) : 01/10/2020</blockquote>
+    </div>
+    <div class="right">
+      <img src="https://i.pinimg.com/originals/dc/55/a3/dc55a39b56c1716021b664e1daa787c7.gif" alt="Gif JJK">
+    </div>
+  </div>
 
-<blockquote>Date de sorti et de fin: 24 décembre 2021</blockquote>
-<blockquote>Date de sorti et de fin : 01/10/2020</blockquote>
 <!--<div class="alignvideo">
     <video controls>
         <source src="https://youtu.be/Xz5bOFNbjnI?si=eI_4Q22DRj3iPHtp" 
@@ -111,26 +118,24 @@
 <br>
 <br> 
 
-<div class="coucou w3-content">
-    <p class="w3-center">
-        <b>
+<div class="coucou content2">
+        <h5 class="content2">
             Voici désormais les informations de notre IUT :
-        </b>
-    </p>
-        <ul>
-            <li>
-                <a href="https://iut.univ-amu.fr/fr/formations/bachelor-universitaire-de-technologie/but-informatique/but-info-aix">Département Informatique</a>
-            </li>    
-            <li>
-                <a href="https://www.instagram.com/iutaixmars/">Instagram IUT Aix-Marseille</a>
-            </li>       
-            <li>
-                <a href="https://mickael-martin-nevot.com/">Site du professeur Mickael Martin-Nevot</a>
-            </li>           
-            <li>
-                <a href="https://ens.casali.me/">Site du professeur Alain Casali</a>
-            </li>
-        </ul>
+        </h5>
+            <ul>
+                <li>
+                    <a href="https://iut.univ-amu.fr/fr/formations/bachelor-universitaire-de-technologie/but-informatique/but-info-aix" class="colored">Département Informatique</a>
+                </li>    
+                <li>
+                    <a href="https://www.instagram.com/iutaixmars/" class="colored">Instagram IUT Aix-Marseille</a>
+                </li>       
+                <li>
+                    <a href="https://mickael-martin-nevot.com/" class="colored">Site du professeur Mickael Martin-Nevot</a>
+                </li>           
+                <li>
+                    <a href="https://ens.casali.me/" class="colored">Site du professeur Alain Casali</a>
+                </li>
+            </ul>
 </div>
 
 <br> 
@@ -145,10 +150,9 @@
     </a>
 
     <!-- Une barre en bas de la page avec nos informations-->
-    <div class="w3-container w3-center baspage">
+    <div class="center baspage">
         <h5>
-            <b><a href="mailto:samuel.celestine@etu.univ-amu.fr">CELESTINE Samuel</a> & <a href="mailto:gwenn.diaz@etu.univ-amu.fr">DIAZ Gwenn</a> & <a href="mailto:furkan.gul@etu.univ-amu.fr">Gul Furkan</a>
-            </b>
+            <a href="mailto:samuel.celestine@etu.univ-amu.fr" class="colored">CELESTINE Samuel</a> & <a href="mailto:gwenn.diaz@etu.univ-amu.fr" class="colored">DIAZ Gwenn</a> & <a href="mailto:furkan.gul@etu.univ-amu.fr" class="colored">Gul Furkan</a>
         </h5>
         <p>
             <u>© 2024-2025 - Tout droit réservé.</u>
