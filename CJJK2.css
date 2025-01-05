@@ -250,6 +250,6 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .colored {
-    color: white;
+    color: white; /*couleur pour les liens*/
     font-weight: bold;
 }
