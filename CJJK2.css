@@ -139,7 +139,9 @@ body::-webkit-scrollbar-thumb:hover {
     font-weight: bold;
     background-color:darkslategray;
 }
-
+.coucou2{
+	color : white;
+}
 .theme {
     position: absolute; /*Bien positionner le texte ou l'image en fonction de sa class*/
     top: 7px;       
