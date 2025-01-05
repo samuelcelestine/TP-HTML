@@ -248,3 +248,8 @@ body::-webkit-scrollbar-thumb:hover {
     background-color: #2f4f4f;
     border-color: #2f4f4f;
 }
+
+.colored {
+    color: white;
+    font-weight: bold;
+}
