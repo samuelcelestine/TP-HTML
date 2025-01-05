@@ -374,7 +374,7 @@ p {
 
 /* Style de la barre de nav */
 .menu-container {
-    position: relative;
+    position: left;
 }
 
 nav {
