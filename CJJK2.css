@@ -88,6 +88,7 @@ body::-webkit-scrollbar-thumb:hover {
 /*Pour que cette variable met la couleur violet foncé et le texte en gras*/
 .titreg {
     font-weight: bold;
+    color: white;
     background-color: #2f4f4f;
     border-color: #2f4f4f;
 }
