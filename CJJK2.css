@@ -88,7 +88,8 @@ body::-webkit-scrollbar-thumb:hover {
 /*Pour que cette variable met la couleur violet foncé et le texte en gras*/
 .titreg {
     font-weight: bold;
-    color: #800080;
+    background-color: #2f4f4f;
+    border-color: #2f4f4f;
 }
 
 .hautpage {
@@ -133,7 +134,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 /*Mettre une police personnalisé et une couleur personnalisé.*/
 .coucou { 
-    color:whitesmoke;
+    color: whitesmoke;
     font-style: unset;
     font-weight: bold;
     background-color:darkslategray;
@@ -177,7 +178,7 @@ body::-webkit-scrollbar-thumb:hover {
 
   nav ul li {
     float: left;
-    width: 15%;
+    width: 12%;
     text-align: center;
     position: relative; /* sert a empecher que les sous partie 
     augmente la taille de la barre de menu*/
@@ -235,4 +236,13 @@ body::-webkit-scrollbar-thumb:hover {
   .center {
     align-items: center;
     text-align: center;
+}
+
+.left {
+    color: black;
+}
+
+.row {
+    background-color: #2f4f4f;
+    border-color: #2f4f4f;
 }

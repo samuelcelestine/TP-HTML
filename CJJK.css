@@ -102,14 +102,19 @@ body::-webkit-scrollbar-thumb:hover {
 /*Pour que cette variable met la couleur violet foncé et le texte en gras*/
 .titreg {
     font-weight: bold;
-    color: #800080;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width : 60%;
+    background-color: #ffe4e1;
+    border-radius: 20px;
+    border:1px solid #ffe4e1;
 }
 
 .hautpage {
-    padding: 5px;
+    padding: 1px;
     transition: background-color 0.3s ease, color 0.3s ease;
-    text-decoration-line: underline;
-    /*souligner le texte*/
+    text-decoration-line: underline;/*souligner le texte*/
     text-align: left;
 }
 
@@ -236,7 +241,7 @@ nav ul {
 
 nav ul li {
     float: left;
-    width: 15%;
+    width: 12%;
     text-align: center;
     position: relative;
     /* sert a empecher que les sous partie 
@@ -341,8 +346,8 @@ p {
 }
 
 .left {
-    width: 50%;
-    text-align: left;
+    width: 100%;
+    text-align: center;
 }
 
 .colored {
@@ -355,6 +360,12 @@ p {
     justify-content: space-between;
     align-items: flex-start;
     padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width : 60%;
+    background-color: #ffe4e1;
+    border-radius: 20px;
+    border:1px solid #ffe4e1;
 }
 
 .pink {
@@ -363,5 +374,6 @@ p {
 
 img {
     max-width: 100%;
+    border-radius: 20px;
     height: auto;
 }
