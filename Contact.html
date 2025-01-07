@@ -83,58 +83,44 @@
 <!-- Page de présentation à partir d'ici -->
 <h1 class="content titreg">Contact</h1>
 
-<!--Row permet de couper en plusieurs partie les éléments de la page pour les mettres ensemble sur la même ligne.-->
-   <script>
-	<!-- Formulaire de contact à compléter-->
-      <form id="form" action="mailto:kfc.support@kfc.fr?content-type=text/html&amp;subject=Contact%20Us" method="post" enctype="text/plain">
-        <label for="fname">Nom :</label>
-        <input class="text" type="text" id="fname" name="fname" placeholder="Martin-Nevot" required="required"><br>
 
-        <label for="lname">Prenom :</label>
-        <input class="text" type="text" id="lname" name="lname" placeholder="Mickaël" required="required"><br>
-
+	<!-- Liste de raison de contact -->
+	<label for="sujet">Pourquoi nous contacter ?</label>
+	<select name="sujet" id="sujet" required>
+	<option value="" disabled selected hidden>Choisissez une des raisons</option>
+	<option value="suggestions" >Une suggestion à apporter au site ?</option>
+	<option value="Problemes" >Un Problème sur notre site ?</option>
+	<option value="fakeinfo" >Une information incorrecte dans le contenu ?</option>
+	<option value="Autre" >Autre</option>
+	</select>
+	<br>
+	<br>
+	
+	<!-- c'est le formulaire de contact -->
+      <form id="form" action="mailto:" method="post">
+        
+		<label for="Nom">Nom :</label>
+		<input type="text" id="Nom" name="Nom" placeholder="Mon Nom" required="required">
+		<br>
+		<br>
+        <label for="Prenom">Prenom :</label>
+        <input type="text" id="Prenom" name="Prenom" placeholder="Mon Prenom" required="required">
+		<br>
+		<br>
         <label for="mail">E-mail :</label>
-        <input class="text" type="email" id="mail" name="mail" placeholder="mickael.martin-nevot@gmail.com" required="required"><br>
+        <input type="email" id="email" name="email" placeholder="monemail@nomdedomaine.com" required="required"><br>
 
-        <!-- liste choix cliquable avis -->
-        <fieldset>
-          <legend>Pourquoi nous contacter ?</legend>
-            <input type="checkbox" id="marque" name="interest" value="marque">
-            <label for="marque">Questions sur la marque</label> <br>
 
-            <input type="checkbox" id="qualite_produit" name="interest" value="qualite_produit">
-            <label for="qualite_produit">Sur la qualité des produits</label><br>
-
-            <input type="checkbox" id="commande_probleme" name="interest" value="commande_probleme">
-            <label for="commande_probleme">Problème de commande</label><br>
-
-            <input type="checkbox" id="amelioration" name="interest" value="amelioration">
-            <label for="amelioration">Suggestions d'amélioration</label><br>
-
-            <input type="checkbox" id="provenance" name="interest" value="provenance">
-            <label for="provenance">Questions sur les ingrédients <!--ou provenance des produits--></label><br>
-
-            <input type="checkbox" id="service_client" name="interest" value="service_client">
-            <label for="service_client">Service client (réclamation)</label><br>
-
-            <input type="checkbox" id="emploi" name="interest" value="emploi">
-            <label for="emploi">Demande d'emploi ou stage</label><br>
-
-            <input type="checkbox" id="autres" name="interest" value="autres">
-            <label for="autres">Autres demandes</label><br>
-        </fieldset>
         <br>
 
-        <label for="avis">Vos Commentaires :</label>
-        <textarea class="text" id="avis" name="avis" rows="15" cols="50" required="required" placeholder="Votre Avis..."></textarea><br>
+        <label for="Message">Votre message:</label>
+        <textarea class="text" id="avis" name="avis" rows="10" cols="30" required="required" placeholder="Dites nous en plus"></textarea><br>
 
-        <input id="envoyer" type="submit" value="Go">
-        <br>
-        <input id="effacer" type="reset" value="Effacer">
-
+        <input id="envoyer" type="submit" value="Envoyer">
+        
       </form> 
 
-    </section>
+    
 
 <br>
 <br> 
