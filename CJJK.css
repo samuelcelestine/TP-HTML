@@ -82,7 +82,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 /* Overlay affiché */
-#menu-toggle:checked ~ .menu-overlay {
+#menu-toggle:checked ~ .overlay.menu {
     transform: scale(1);
     opacity: 1;
 }
@@ -106,7 +106,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 /* ce que contient l'overlay */
-.menu-overlay nav ul {
+.overlay.menu nav ul {
     list-style: none;
     padding: 0;
     text-align: center;
