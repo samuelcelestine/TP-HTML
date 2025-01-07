@@ -381,9 +381,8 @@ p {
 
 nav {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #333;
+    justify-content: left;
+    align-items: left;
     padding: 10px 0;
 }
 
