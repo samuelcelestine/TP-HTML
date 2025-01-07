@@ -375,6 +375,8 @@ p {
 /* Style de la barre de nav */
 .bar {
     position: left;
+    justify-content: left;
+    align-items: left;
 }
 
 nav {
