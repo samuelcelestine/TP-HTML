@@ -378,7 +378,7 @@ p {
     display: none;
     cursor: pointer;
     position: absolute;
-    top: 0px;
+    top: 3px;
     left: 20px;
     z-index: 10;
 }
@@ -438,4 +438,21 @@ img {
     max-width: 100%;
     border-radius: 20px;
     height: auto;
+}
+
+.prout {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width : 40%;
+    padding: 40px;
+    background-color: #ffe4e1;
+    border-radius: 20px;
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
 }
