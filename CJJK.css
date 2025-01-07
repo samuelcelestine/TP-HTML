@@ -442,11 +442,6 @@ p {
     opacity: 1;
 }
 
-/* Checkbox invisible */
-#menu-toggle {
-    display: none;
-}
-
 /* Affichage sur mobiles */
 @media (max-width: 980px) {
     nav ul {
