@@ -424,7 +424,7 @@ p {
 }
 /* Lorsque le menu hamburger est activé, afficher */
 #menu-toggle {
-    display: none;
+    display: flex;
 }
 
 #menu-toggle:checked + .hamburger-icon + .overlay-menu {
