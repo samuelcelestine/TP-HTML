@@ -87,7 +87,7 @@
 <div class="row">
 <div class="left">
 	<!-- Liste de raison de contact -->
-	<label for="sujet">Pourquoi nous contacter ?</label>
+	<label for="sujet"><b>Pourquoi nous contacter ?</b></label>
 	<select name="sujet" id="sujet" required>
 	<option value="" disabled selected hidden>Choisissez une des raisons</option>
 	<option value="suggestions" >Une suggestion à apporter au site ?</option>
@@ -101,22 +101,22 @@
 	<!-- c'est le formulaire de contact -->
       <form id="form" action="mailto:" method="post">
         
-		<label for="Nom">Nom :</label>
+		<label for="Nom"><b>Nom</b> :</label>
 		<input type="text" id="Nom" name="Nom" placeholder="Mon Nom" required="required">
 		<br>
 		<br>
-        <label for="Prenom">Prenom :</label>
+        <label for="Prenom"><b>Prenom</b> :</label>
         <input type="text" id="Prenom" name="Prenom" placeholder="Mon Prenom" required="required">
 		<br>
 		<br>
-        <label for="mail">E-mail :</label>
+        <label for="mail"><b>E-mail</b> :</label>
         <input type="email" id="email" name="email" placeholder="monemail@nomdedomaine.com" required="required"><br>
 
 
         <br>
 
-        <label for="Message">Votre message:</label>
-        <textarea class="text" id="avis" name="avis" rows="10" cols="30" required="required" placeholder="Dites nous en plus"></textarea><br>
+        <label for="Message"><b>Votre message:</b></label>
+        <textarea class="text" id="avis" name="avis" rows="5" cols="10" required="required" placeholder="Dites nous en plus"></textarea><br>
 
         <input id="envoyer" type="submit" value="Envoyer">
         
