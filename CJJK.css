@@ -60,7 +60,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 /*Responsive Téléphone @media pour un appareil*/
-@media (max-width: 480px) {
+@media (max-width: 980px) {
     .ancrage {
         width: 30px;
         height: 30px;
@@ -403,7 +403,7 @@ p {
 }
 
 /* Affichage sur les mobiles */
-@media (max-width: 480px) {
+@media (max-width: 980px) {
     nav ul {
         display: none;
         flex-direction: column;
