@@ -435,7 +435,7 @@ nav ul li ul li a {
 .hamburger-icon .bar {
     width: 25px;
     height: 3px;
-    background-color: white;
+    background-color: black;
     margin: 5px 0;
     position: left;
     justify-content: left;
