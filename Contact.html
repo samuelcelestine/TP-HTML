@@ -81,45 +81,60 @@
 <br>
 
 <!-- Page de présentation à partir d'ici -->
-<h1 class="content titreg">Histoire</h1>
-
-<div class="content center">
-<img src="https://i.pinimg.com/originals/d3/da/26/d3da267406839a50cc7657f8e4cc1dd7.jpg" alt="Bannière Sukuna" width="700px">
-</div>
+<h1 class="content titreg">Contact</h1>
 
 <!--Row permet de couper en plusieurs partie les éléments de la page pour les mettres ensemble sur la même ligne.-->
-<div class="row">
-    <div class="left">
-      <h2 class="content">═════Scénario═════</h2>
-      <p>Yuji Itadori est un expert en athlétisme. Mais il n'a aucun intérêt à tourner en rond, il est heureux comme un ogre au sein du club de recherche occulte.
-        Bien qu'il ne soit dans le club que pour le plaisir, les choses deviennent sérieuses lorsqu'un véritable esprit se présente à l'école !
-        Lorsque son grand-père est sur son lit de mort, Yuji lui fait une promesse : il fera de bonnes actions pour mourir entouré de ses proches, contrairement à son grand-père.
-        Cependant, la vie de Yuji prend un tournant soudain lorsqu'il rencontre Megumi Fushiguro , un exorciste qui tente de récupérer un objet maudit.
-        Lorsque les amis de Yuji ouvrent l'objet maudit qu'ils ont trouvé, les choses tournent mal lorsque les esprits maudits qu'il a engendrés commencent à errer dans l'école.
-        Alors que Fushiguro et Yuji sont presque vaincus par l'un des esprits, Yuji avale alors l'objet maudit et acquiert son pouvoir.
-        En conséquence, Yuji est maudit par l'objet et se retrouve entraîné dans le monde palpitant de Fushiguro, fait de sorciers jujutsu et d'esprits maudits.
-      </p>
-    </div>
-  </div>
-<br>
-<!--<div class="alignvideo">
-    <video controls>
-        <source src="https://youtu.be/Xz5bOFNbjnI?si=eI_4Q22DRj3iPHtp" 
-        type="video/url">
-        <p>
-            Malheureusement, tu ne peux pas visionner cette vidéo.
-        </p>
-    </video>
-</div>-->
-<div class="alignvideo">
-    <iframe  
-        src="https://www.youtube.com/embed/Xz5bOFNbjnI" 
-        title="JJK Trailer" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        allowfullscreen>
-    </iframe>
-</div>
+   <script>
+	<!-- Formulaire de contact à compléter-->
+      <form id="form" action="mailto:kfc.support@kfc.fr?content-type=text/html&amp;subject=Contact%20Us" method="post" enctype="text/plain">
+        <label for="fname">Nom :</label>
+        <input class="text" type="text" id="fname" name="fname" placeholder="Martin-Nevot" required="required"><br>
+
+        <label for="lname">Prenom :</label>
+        <input class="text" type="text" id="lname" name="lname" placeholder="Mickaël" required="required"><br>
+
+        <label for="mail">E-mail :</label>
+        <input class="text" type="email" id="mail" name="mail" placeholder="mickael.martin-nevot@gmail.com" required="required"><br>
+
+        <!-- liste choix cliquable avis -->
+        <fieldset>
+          <legend>Pourquoi nous contacter ?</legend>
+            <input type="checkbox" id="marque" name="interest" value="marque">
+            <label for="marque">Questions sur la marque</label> <br>
+
+            <input type="checkbox" id="qualite_produit" name="interest" value="qualite_produit">
+            <label for="qualite_produit">Sur la qualité des produits</label><br>
+
+            <input type="checkbox" id="commande_probleme" name="interest" value="commande_probleme">
+            <label for="commande_probleme">Problème de commande</label><br>
+
+            <input type="checkbox" id="amelioration" name="interest" value="amelioration">
+            <label for="amelioration">Suggestions d'amélioration</label><br>
+
+            <input type="checkbox" id="provenance" name="interest" value="provenance">
+            <label for="provenance">Questions sur les ingrédients <!--ou provenance des produits--></label><br>
+
+            <input type="checkbox" id="service_client" name="interest" value="service_client">
+            <label for="service_client">Service client (réclamation)</label><br>
+
+            <input type="checkbox" id="emploi" name="interest" value="emploi">
+            <label for="emploi">Demande d'emploi ou stage</label><br>
+
+            <input type="checkbox" id="autres" name="interest" value="autres">
+            <label for="autres">Autres demandes</label><br>
+        </fieldset>
+        <br>
+
+        <label for="avis">Vos Commentaires :</label>
+        <textarea class="text" id="avis" name="avis" rows="15" cols="50" required="required" placeholder="Votre Avis..."></textarea><br>
+
+        <input id="envoyer" type="submit" value="Go">
+        <br>
+        <input id="effacer" type="reset" value="Effacer">
+
+      </form> 
+
+    </section>
 
 <br>
 <br> 
