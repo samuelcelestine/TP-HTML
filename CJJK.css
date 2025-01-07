@@ -76,6 +76,29 @@ body::-webkit-scrollbar-thumb:hover {
     }
 }
 
+/* Checkbox mode invisible */
+#menu-toggle {
+    display: none;
+}
+
+/* Overlay */
+.overlay-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    z-index: 2;
+}
+
 .barre {
     background-color: #ffe4e1;
     padding: 10px;
