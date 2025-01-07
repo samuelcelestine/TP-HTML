@@ -379,11 +379,10 @@ p {
 
 /* Style du menu hamburger */
 .hamburger-icon {
-    display: flex;
-    flex-direction: column;
+    display: none;
     cursor: pointer;
     position: absolute;
-    top: 20px;
+    top: 3px;
     left: 20px;
     z-index: 10;
 }
@@ -393,6 +392,9 @@ p {
     height: 3px;
     background-color: black;
     margin: 5px 0;
+    position: left;
+    justify-content: left;
+    align-items: left;
 }
 
 
@@ -414,38 +416,25 @@ p {
     z-index: 2;
 }
 
-/* Contenu de l'overlay */
-.overlay-menu nav ul {
+/* ce que contient l'overlay */
+.overlay.menu nav ul {
     list-style: none;
     padding: 0;
     text-align: center;
 }
-
-.overlay-menu nav ul li {
-    margin: 10px 0;
+/* Lorsque le menu hamburger est activé, afficher */
+#menu-toggle {
+    display: none;
 }
 
-.overlay-menu nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 24px;
-    transition: color 0.3s;
+#menu-toggle:checked + .hamburger-icon + .overlay-menu {
+    display: block;
 }
 
-.overlay-menu nav ul li a:hover {
-    color: #f39c12;
-}
-
-/* Affichage de l'overlay lorsque le menu hamburger est activé */
-#menu-toggle:checked ~ .overlay-menu {
-    transform: scale(1);
-    opacity: 1;
-}
-
-/* Affichage sur mobiles */
+/* Affichage sur les mobiles */
 @media (max-width: 980px) {
     nav ul {
-        display: flex;
+        display: none;
         flex-direction: column;
         gap: 10px;
         width: 100%;
@@ -463,6 +452,13 @@ p {
 
     .hamburger-icon {
         display: block;
+    }
+
+    nav ul li ul {
+        position: relative;
+        top: 0;
+        left: 0;
+        background-color: #333;
     }
 }
 
