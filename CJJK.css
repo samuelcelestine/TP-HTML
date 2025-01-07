@@ -90,7 +90,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .barrep {
     background-color: #ffe4e1;
-    padding: 15px;
+    padding: 20px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
