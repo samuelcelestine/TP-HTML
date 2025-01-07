@@ -81,6 +81,12 @@ body::-webkit-scrollbar-thumb:hover {
     display: none;
 }
 
+/* Overlay affiché */
+#menu-toggle:checked ~ .menu-overlay {
+    transform: scale(1);
+    opacity: 1;
+}
+
 /* Overlay */
 .overlay-menu {
     position: fixed;
@@ -98,6 +104,15 @@ body::-webkit-scrollbar-thumb:hover {
     transition: transform 0.3s ease, opacity 0.3s ease;
     z-index: 2;
 }
+
+/* ce que contient l'overlay */
+.menu-overlay nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+
 
 .barre {
     background-color: #ffe4e1;
