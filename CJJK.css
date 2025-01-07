@@ -386,6 +386,13 @@ nav {
     padding: 10px 0;
 }
 
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
 
 nav ul li {
     position: relative;
