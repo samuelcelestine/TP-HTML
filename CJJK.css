@@ -403,9 +403,6 @@ p {
         display: block;
     }
 
-    .hamburger-icon {
-        display: block;
-    }
 
     nav ul li ul {
         position: relative;
@@ -415,6 +412,34 @@ p {
     }
 }
 
+/* c'est pour faire disparaitre le menu hamburger*/
+
+@media (min-width: 980px) {
+ nav ul {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li {
+        width: 100%;
+    }
+
+    nav ul li a {
+        padding: 10px;
+        display: block;
+    }
+
+
+    nav ul li ul {
+        position: relative;
+        top: 0;
+        left: 0;
+        background-color: #333;
+    }
+}
 
 img {
     max-width: 100%;
