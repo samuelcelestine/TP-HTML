@@ -414,6 +414,7 @@ p {
 
 /* c'est pour faire disparaitre le menu hamburger*/
 
+img {
 @media (min-width: 980px) {
  nav ul {
         display: none;
@@ -441,7 +442,7 @@ p {
     }
 }
 
-img {
+
     max-width: 100%;
     border-radius: 20px;
     height: auto;
