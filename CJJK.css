@@ -415,30 +415,15 @@ p {
 /* c'est pour faire disparaitre le menu hamburger*/
 
 img {
-@media (max-width: 980px) {
- nav ul {
-        display: none;
-        flex-direction: column;
-        gap: 10px;
-        width: 100%;
-        text-align: center;
+@media screen and (max-width: 980px) {
+    .hautpage {
+        display: block; /* Affiche l'élément */
     }
+}
 
-    nav ul li {
-        width: 100%;
-    }
-
-    nav ul li a {
-        padding: 10px;
-        display: none;
-    }
-
-
-    nav ul li ul {
-        position: relative;
-        top: 0;
-        left: 0;
-        background-color: #333;
+@media screen and (min-width: 981px) {
+    .hautpage {
+        display: none; /* Masque l'élément au-delà de 980px */
     }
 }
 
