@@ -408,6 +408,11 @@ p {
     }
 }
 
+img {
+    max-width: 100%;
+    border-radius: 20px;
+    height: auto; }
+    
 .img1 {
     width : 700px;
 }
