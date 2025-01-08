@@ -415,18 +415,6 @@ p {
 /* c'est pour faire disparaitre le menu hamburger*/
 
 img {
-@media screen and (max-width: 980px) {
-    .hautpage {
-        display: block; /* Affiche l'élément */
-    }
-}
-
-@media screen and (min-width: 981px) {
-    .hautpage {
-        display: none; /* Masque l'élément au-delà de 980px */
-    }
-}
-
 
     max-width: 100%;
     border-radius: 20px;
