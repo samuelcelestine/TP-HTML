@@ -378,40 +378,6 @@ p {
 
 
 
-
-/* Overlay */
-.overlay-menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.9);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: scale(0);
-    opacity: 0;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-    z-index: 2;
-}
-
-/* ce que contient l'overlay */
-.overlay.menu nav ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-}
-/* Lorsque le menu hamburger est activé, afficher */
-#menu-toggle {
-    display: flex;
-}
-
-#menu-toggle:checked + .hamburger-icon + .overlay-menu {
-    display: block;
-}
-
 /* Affichage sur les mobiles */
 @media (max-width: 980px) {
     nav ul {
