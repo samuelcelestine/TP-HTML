@@ -286,6 +286,11 @@ nav>ul li:hover .sous {
     display: block;
 }
 
+img {
+width : 150px;
+height : 150px;
+}
+
 .sous li {
     float: none;
     width: 100%;
