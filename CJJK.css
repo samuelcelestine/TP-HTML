@@ -382,7 +382,10 @@ p {
     color: pink;
 }
 
-
+img {
+width : 40px;
+height : 40px;
+}
 
 /* Affichage sur les mobiles */
 @media (max-width: 980px) {
@@ -414,10 +417,7 @@ p {
 
 /* c'est pour faire disparaitre le menu hamburger*/
 
-img {
-width : 40px;
-height : 40px;
-}
+
 .img1 {
     width : 700px;
 }
