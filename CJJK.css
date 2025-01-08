@@ -286,6 +286,12 @@ nav>ul li:hover .sous {
     display: block;
 }
 
+img {
+width : 40px;
+height : 40px;
+}
+
+
 .sous li {
     float: none;
     width: 100%;
@@ -397,9 +403,6 @@ p {
         display: block;
     }
 
-    .hamburger-icon {
-        display: block;
-    }
 
     nav ul li ul {
         position: relative;
@@ -409,13 +412,12 @@ p {
     }
 }
 
+/* c'est pour faire disparaitre le menu hamburger*/
 
 img {
-    max-width: 100%;
-    border-radius: 20px;
-    height: auto;
+width : 40px;
+height : 40px;
 }
-
 .img1 {
     width : 700px;
 }
